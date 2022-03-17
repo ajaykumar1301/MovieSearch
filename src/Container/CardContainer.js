@@ -43,6 +43,10 @@ const CardContainer = ({searchText, setSearchText, content, setContent}) => {
           overview={c.overview}
         />)))
         }
+        
+        {searchText &&
+          !content1 &&
+          (<h2>No Movies Found</h2> }
       
     </div>
   )
